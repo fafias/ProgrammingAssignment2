@@ -1,0 +1,4 @@
+public Uri URL { get; }
+Uri MyUrl = Request.Url;
+  Response.Write("URL Port: " + MyUrl.Port + "«pt»");
+  Response.Write(URL Protocol: " + Server.HtmlEncode(MyUrl.+Scheme) + "«pt»");
